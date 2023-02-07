@@ -3,19 +3,16 @@ package testcscu4;
 import io.cucumber.java.en.Given;
 
 public class StepDefinition {
-    @Given("Test \\\"")
+    @Given("Test ` echo test `")
     public void test1() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        System.err.println("Test ` echo test `");
     }
     @Given("Test '")
     public void test2() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        System.err.println("Test '");
     }
     @Given("Test %test%")
     public void test3() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        System.err.println("Test %test%");
     }
 }

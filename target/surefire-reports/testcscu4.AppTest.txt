@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testcscu4.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.527 s <<< FAILURE! - in testcscu4.AppTest
-Test1(Test1)  Time elapsed: 0.212 s  <<< ERROR!
-io.cucumber.cucumberexpressions.CucumberExpressionException: 
-This Cucumber Expression has a problem at column 7:
-
-Test \"
-      ^
-Only the characters '{', '}', '(', ')', '\', '/' and whitespace can be escaped.
-If you did mean to use an '\' you can use '\\' to escape it
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.012 s - in testcscu4.AppTest
