@@ -1,16 +1,18 @@
 package testcscu4;
 
-import io.cucumber.java.en.Given;
+import cucumber.api.java.en.Given;
 
 public class StepDefinition {
+
     @Given("test '")
     public void test1() {
         System.out.println("Test");
     }
+
     @Given("Test ` echo test `")
-public void test2() {
-    System.out.println("Test");
-}
+    public void test2() {
+        System.out.println("Test");
+    }
 
     @Given("Test $test")
     public void test3() {
@@ -34,18 +36,19 @@ public void test2() {
 
     // @Given("Test echo test < /tmp")
     // public void test7() {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
 
     // @Given("Test echo test > /tmp")
     // public void test8() {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
 
     @Given("Test ^")
     public void test9() {
         System.out.println("Test");
     }
+
     @Given("Test %test%")
     public void test10() {
         System.out.println("Test");
@@ -58,12 +61,12 @@ public void test2() {
 
     // @Given("Test backslash \\\\")
     // public void test12() {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
 
     // @Given("Test slash /")
     // public void test13() {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
 
     @Given("Test $\\(echo test)")
@@ -98,25 +101,26 @@ public void test2() {
 
     // @Given("Test "test""")
     // public void test20(String string) {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
     // @Given("Test 'test'")
     // public void test21(String string) {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
 
     // @Given("Test $test")
     // public void test22() {
-    //     System.out.println("Test");
+    // System.out.println("Test");
     // }
 
     @Given("Test ,.+-_~@€çé=àû*?!")
     public void test23() {
         System.out.println("Test");
     }
+
     @Given("Test .\\/test")
     public void test24() {
         System.out.println("Test");
     }
-    
+
 }
