@@ -1,6 +1,6 @@
 package testcscu4;
 
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Given;
 
 public class StepDefinition {
 
@@ -34,7 +34,7 @@ public class StepDefinition {
         System.out.println("Test");
     }
 
-    @Given("Test /")
+    @Given("Test \\/")
     public void test7() {
         System.out.println("Test");
     }
