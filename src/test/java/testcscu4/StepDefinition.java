@@ -9,17 +9,17 @@ public class StepDefinition {
         System.out.println("Test");
     }
 
-    @Given("Test \\< \\/tmp")
+    @Given("Test \\< /tmp")
     public void test2_tmp() {
         System.out.println("Test");
     }
 
-    @Given("Test \\> \\/tmp")
+    @Given("Test \\> /tmp")
     public void test3() {
         System.out.println("Test");
     }
 
-    @Given("Test \'test\'")
+    @Given("Test 'test'")
     public void test4() {
         System.out.println("Test");
     }
@@ -34,7 +34,7 @@ public class StepDefinition {
         System.out.println("Test");
     }
 
-    @Given("Test \\/")
+    @Given("Test /")
     public void test7() {
         System.out.println("Test");
     }
