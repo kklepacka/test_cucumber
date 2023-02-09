@@ -1,1 +1,107 @@
-[{"line":2,"elements":[{"start_timestamp":"2023-02-08T13:08:26.641Z","line":4,"name":"Test_cuke","description":"","id":"test-cuke;test-cuke","type":"scenario","keyword":"Scenario","steps":[{"result":{"status":"passed"},"line":5,"name":"test '","match":{"location":"testcscu4.StepDefinition.test1()"},"keyword":"Given "},{"result":{"status":"passed"},"line":6,"name":"Test ` echo test `","match":{"location":"testcscu4.StepDefinition.test2()"},"keyword":"Given "},{"result":{"status":"passed"},"line":7,"name":"Test $test","match":{"location":"testcscu4.StepDefinition.test3()"},"keyword":"Given "},{"result":{"status":"passed"},"line":8,"name":"Test & echo toto","match":{"location":"testcscu4.StepDefinition.test4()"},"keyword":"Given "},{"result":{"status":"passed"},"line":9,"name":"Test ; echo toto","match":{"location":"testcscu4.StepDefinition.test5()"},"keyword":"Given "},{"result":{"status":"passed"},"line":10,"name":"Test | echo toto","match":{"location":"testcscu4.StepDefinition.test6()"},"keyword":"Given "},{"result":{"status":"passed"},"line":11,"name":"Test ^","match":{"location":"testcscu4.StepDefinition.test9()"},"keyword":"Given "},{"result":{"status":"passed"},"line":12,"name":"Test %test%","match":{"location":"testcscu4.StepDefinition.test10()"},"keyword":"Given "},{"result":{"status":"passed"},"line":13,"name":"Test ${echo test}","match":{"location":"testcscu4.StepDefinition.test11()"},"keyword":"Given "},{"result":{"status":"passed"},"line":14,"name":"Test $(echo test)","match":{"location":"testcscu4.StepDefinition.test14()"},"keyword":"Given "},{"result":{"status":"passed"},"line":15,"name":"Test #test","match":{"location":"testcscu4.StepDefinition.test15()"},"keyword":"Given "},{"result":{"status":"passed"},"line":16,"name":"Test 𨱏","match":{"location":"testcscu4.StepDefinition.test16()"},"keyword":"Given "},{"result":{"status":"passed"},"line":17,"name":"Test 👩‍❤️‍💋‍👨","match":{"location":"testcscu4.StepDefinition.test17()"},"keyword":"Given "},{"result":{"status":"passed"},"line":18,"name":"Test [test]","match":{"location":"testcscu4.StepDefinition.test18()"},"keyword":"Given "},{"result":{"status":"passed"},"line":19,"name":"Test ^^","match":{"location":"testcscu4.StepDefinition.test19()"},"keyword":"Given "},{"result":{"status":"passed"},"line":20,"name":"Test ,.+-_~@€çé=àû*?!","match":{"location":"testcscu4.StepDefinition.test23()"},"keyword":"Given "},{"result":{"status":"passed"},"line":21,"name":"Test ./test","match":{"location":"testcscu4.StepDefinition.test24()"},"keyword":"Given "}]}],"name":"Test_cuke","description":"","id":"test-cuke","keyword":"Feature","uri":"file:src/test/java/testcscu4/135_Test_cuke.feature","tags":[]}]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "KKL_test_steps",
+        "description": "",
+        "id": "kkl-test-steps;kkl-test-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 790300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Test \\\"",
+            "match": {
+              "location": "StepDefinition.test1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test \\\u003c /tmp",
+            "match": {
+              "location": "StepDefinition.test2_tmp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Test \\\u003e /tmp",
+            "match": {
+              "location": "StepDefinition.test3()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Test \u0027test\u0027",
+            "match": {
+              "location": "StepDefinition.test4()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Test $test",
+            "match": {
+              "location": "StepDefinition.test5_$test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Test \\\\",
+            "match": {
+              "location": "StepDefinition.test6()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Test /",
+            "match": {
+              "location": "StepDefinition.test7()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "KKL_test_steps",
+    "description": "",
+    "id": "kkl-test-steps",
+    "keyword": "Feature",
+    "uri": "src/test/java/testcscu4/135_Test_cuke.feature",
+    "tags": []
+  }
+]
